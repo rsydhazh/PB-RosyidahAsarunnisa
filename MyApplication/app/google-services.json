@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865506089211",
+    "project_id": "pemrogramanbergerak-4c7b0",
+    "storage_bucket": "pemrogramanbergerak-4c7b0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865506089211:android:7e7185fe033b0ff153f85e",
+        "android_client_info": {
+          "package_name": "com.example.helloworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5UFT2C-5VAcUC94uF01iwrvyBTED4EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865506089211:android:f3a9bc9d0cdd9a8353f85e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5UFT2C-5VAcUC94uF01iwrvyBTED4EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

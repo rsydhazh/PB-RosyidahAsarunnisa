@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="40dp">
+
+    <LinearLayout
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:background="@drawable/wavy_header"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:src="@drawable/setting48"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+        <TextView
+            android:text="Pengaturan"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:fontFamily="serif"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/editProfile"
+                android:text="Edit Profile"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:background="@drawable/orange_rounded"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:drawableLeft="@drawable/pencil48"
+                android:drawablePadding="8dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp"
+                android:background="@drawable/orange_rounded"
+                android:layout_marginBottom="12dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:drawableLeft="@drawable/night48"
+                    android:drawablePadding="8dp"
+                    android:text="Mode Gelap"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:fontFamily="serif"/>
+
+                <Switch
+                    android:id="@+id/switchDarkMode"
+                    android:layout_width="64dp"
+                    android:layout_height="48dp"
+                    android:padding="8dp"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Keluar"
+                android:padding="16dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/logout48"
+                android:drawablePadding="8dp"
+                android:background="@drawable/orange_rounded"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
